@@ -1,0 +1,7 @@
+.not-found{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    height: 100vh; /* Set the container height to the full viewport height */
+}

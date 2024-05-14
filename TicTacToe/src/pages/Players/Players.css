@@ -1,0 +1,71 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .player-2 {
+    background-color: rgba(68, 68, 192, 0.723);
+    height: 94vh;
+    padding-top: 20px;
+    transition: all 0.5s ease;
+  }
+  
+  .left, .middle, .right {
+    display: flex;
+    flex-direction: column; /* To stack the 'Dabba' elements vertically */
+  }
+
+  .dabba div{
+    width: 40px;
+    height: 40px;
+  }
+  
+  .cross{
+    background-image: url(../../assets/redCross.png);
+    z-index: 99;
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    
+  }
+  .zero{
+    background-image: url(../../assets/blueO.png);
+    z-index: 99;
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+  
+  }
+  
+  .player-1{
+    background-color: rgba(206, 54, 54, 0.738);
+    height: 94vh;
+    padding-top: 20px;
+    transition: all 0.5s ease;
+  }
+
+  
+  .head-1{
+    
+    font-size: 45px;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+  }
+  .head-2{
+    font-size: 20px;
+    font-weight: 350;
+    width: 100%;
+    text-align: center;
+    margin-top: -20px;
+  }
+  .head-3{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 450;
+    margin-top: 70px;
+  }
+
+  .main{
+    display: flex;
+    justify-content: center; /* Horizontally center */
+
+  }
