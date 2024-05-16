@@ -34,7 +34,7 @@ function Computer() {
   function settingText(){
     
     if(count%2 == 0 && checkWin(matrix)[0] == -1){
-      setText(`Its player 1's turn`)
+      setText(`Its Your turn`)
       setBodyClass('player-1')
     }
     if(count%2 == 1 && checkWin(matrix)[0] == -1 && count <9  ){
@@ -54,12 +54,14 @@ function Computer() {
       
     }
     if(checkWin(matrix)[0] == 1){
-      setText(`Player 1 won`)
+      setText(`You won`)
       setCount(count-1)
+      return;
     }
     if(checkWin(matrix)[0] == 2){
       setText(`Computer won`)
       setCount(count-1)
+      return;
     }
     if(count == 9){
         setText('Its a draw');

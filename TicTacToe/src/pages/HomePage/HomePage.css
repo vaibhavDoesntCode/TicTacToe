@@ -9,7 +9,12 @@
     margin-top: -120px;
     background-color: rgb(46, 16, 52);
     color: white;
+    overflow-x: hidden;
 }
+
+
+
+
 
 .homepage-div{
   color: white;

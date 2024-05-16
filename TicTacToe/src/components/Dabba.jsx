@@ -36,7 +36,7 @@ export default function Dabba({count, setCount, matrix, setMatrix, row, column, 
 
 
     return(
-        <div className={"dabba "+ id} onClick={onclick}>
+        <div className={"zoom-in dabba "+ id} onClick={onclick}>
             <div id={id} className={(!clicked) ? 'blank' : (minCount%2==1) ? 'cross' : 'zero' }></div>
         </div>
     )

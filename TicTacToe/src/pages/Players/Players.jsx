@@ -27,24 +27,26 @@ function Players() {
   }
 
   function settingText(){
+    
 
-    if(count%2 == 0 && checkWin(matrix) == -1 &&count<9){
+    if(count%2 == 0 && checkWin(matrix)[0] == -1 &&count<9){
       setText(`Its player 1's turn`)
       setBodyClass('player-1')
+
       
     }
-    if(count%2 == 1 && checkWin(matrix) == -1 &&count<9){
+    if(count%2 == 1 && checkWin(matrix)[0] == -1 &&count<9){
       setText(`Its player 2's turn`)
       setBodyClass('player-2')
-      return;
     }
-    if(checkWin(matrix) == 1){
+    if(checkWin(matrix)[0] == 1){
       setText(`Player 1 won`)
       setCount(count-1)
       setBodyClass('player-1')
+      
       return;
     }
-    if(checkWin(matrix) == 2){
+    if(checkWin(matrix)[0] == 2){
       setText(`Player 2 won`)
       setCount(count-1)
       setBodyClass('player-2')
@@ -97,6 +99,7 @@ function winAt(mat,x1,y1,x2,y2,x3,y3){
     }
     return -1;
 }
+
 
 
 
