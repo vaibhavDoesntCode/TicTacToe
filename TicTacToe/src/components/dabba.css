@@ -4,7 +4,7 @@
     height: 75px;
     background: rgba(217, 217, 217, 0.58);
     border: 1px solid white;
-    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    box-shadow: inset -19px 20px 51px 0px rgba(0, 0, 0, 0.22);
     backdrop-filter: blur(6px);
     border-radius: 5px;
     text-align: center;
@@ -20,7 +20,7 @@
   }
   
   .dabba:hover {
-    border: 1px solid black;
+    border: 1px solid rgb(75, 72, 72);
     transform: scale(1.05);
   }
   

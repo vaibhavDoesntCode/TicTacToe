@@ -6,7 +6,7 @@ function SelectDif () {
   return (
     <div className="selectDif-class" >
       <h1 className='head-1 slide-top ' >TicTacToe Game</h1>
-    <h3 className='head-2 slide-top' >Made with React.js</h3>
+
     <div className="menu-diffpage">
         <div className="diffpage-option1 zoom-in">
             <Link to="/computer/easy" >

@@ -4,17 +4,7 @@
     background-repeat: no-repeat;
 }
 
-.diffpage-option1-bg {
-    background-image: url(../../assets/easy.png);
-}
 
-.diffpage-option2-bg {
-    background-image: url(../../assets/medium.png);
-}
-
-.diffpage-option3-bg {
-    background-image: url(../../assets/hard.png);
-}
 .menu-diffpage{
     display: flex;
     width: 100%;
@@ -24,6 +14,8 @@
     gap: 100px;
     overflow-y: hidden;
     margin-top: -3%;
+    overflow-x: hidden;
+    
 }
 
 .card {
@@ -32,6 +24,7 @@
  
  border-radius: 20px;
  transition: all .3s;
+ 
 }
 
 #easy{
@@ -87,4 +80,10 @@ box-shadow: 0px 0px 30px 1px rgba(255, 208, 0, 0.26);
     background-color: #1a1a1ae1;
     color: white;
     margin-top: -20px;
+    overflow-x: hidden;
+    position: absolute;
+    top: 0;
+    left: auto;
+    width: 100vw;
+    padding-top: 60px;
 }

@@ -1,8 +1,13 @@
 import { useEffect, useState } from 'react'
 import './Players.css'
 import Dabba from '../../components/Dabba'
+import TorusScene from '../../components/TorusScene';
+
+
 
 function Players() {
+  
+
   const [bodyClass, setBodyClass] = useState();
   const [count, setCount] = useState(0);
   const [matrix, setMatrix] = useState([[0,0,0],[0,0,0],[0,0,0]])
@@ -30,13 +35,13 @@ function Players() {
     
 
     if(count%2 == 0 && checkWin(matrix)[0] == -1 &&count<9){
-      setText(`Its player 1's turn`)
+      setText(`It's Player 1's turn`)
       setBodyClass('player-1')
 
       
     }
     if(count%2 == 1 && checkWin(matrix)[0] == -1 &&count<9){
-      setText(`Its player 2's turn`)
+      setText(`It's Player 2's turn`)
       setBodyClass('player-2')
     }
     if(checkWin(matrix)[0] == 1){
@@ -104,11 +109,11 @@ function winAt(mat,x1,y1,x2,y2,x3,y3){
 
 
   return(
-    <>
-
+    <div className='App'>
+      {/* <TorusScene /> */}
     <div className={bodyClass}>
     <h1 className='head-1' >TicTacToe Game</h1>
-    <h3 className='head-2' >Made with React.js</h3>
+  
     <h2 className='head-3' >{text}</h2><br />
       <div className='main'>
       
@@ -129,7 +134,8 @@ function winAt(mat,x1,y1,x2,y2,x3,y3){
       </div>
       </div>
     </div>
-    </>
+    
+    </div>
   )
 }
 

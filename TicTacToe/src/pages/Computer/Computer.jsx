@@ -34,12 +34,12 @@ function Computer() {
   function settingText(){
     
     if(count%2 == 0 && checkWin(matrix)[0] == -1){
-      setText(`Its Your turn`)
+      setText(`It's your turn`)
       setBodyClass('player-1')
     }
     if(count%2 == 1 && checkWin(matrix)[0] == -1 && count <9  ){
 
-      setText(`Its Computers's turn`)
+      setText(`It's Computers's turn`)
       setBodyClass('player-2')
       if(diff == "easy"){
         document.getElementById(randomID(matrix)).click();
@@ -237,8 +237,8 @@ function winAt(mat,x1,y1,x2,y2,x3,y3){
   return(
     <>
     <div className={bodyClass}>
-    <h1 className='head-1' >TicTacToe Game</h1>
-    <h3 className='head-2' >Made with React.js</h3>
+    <h1 className='head-1' style={{fontFamily: "Exo2"}} >TicTacToe Game</h1>
+    
     <h2 className='head-3' >{text}</h2><br />
     <div className='main'>
       
