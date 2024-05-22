@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function HomePage () {
   return (
     <div className="homepage-div">
-      <h1 className='head-1 slide-top ' >TicTacToe Game</h1>
+      <h1 className='head-1-dash slide-top ' >TicTacToe Game</h1>
     
     <div className="menu-homepage">
         <div className="homepage-option1 slide-left ">

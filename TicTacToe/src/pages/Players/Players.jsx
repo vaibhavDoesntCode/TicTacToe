@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import './Players.css'
 import Dabba from '../../components/Dabba'
 import TorusScene from '../../components/TorusScene';
+import NavBar from '../../components/NavBar/NavBar';
 
 
 
@@ -111,8 +112,13 @@ function winAt(mat,x1,y1,x2,y2,x3,y3){
   return(
     <div className='App'>
       {/* <TorusScene /> */}
+
+     
     <div className={bodyClass}>
+      <NavBar where="player" ></NavBar>
+
     <h1 className='head-1' >TicTacToe Game</h1>
+
   
     <h2 className='head-3' >{text}</h2><br />
       <div className='main'>

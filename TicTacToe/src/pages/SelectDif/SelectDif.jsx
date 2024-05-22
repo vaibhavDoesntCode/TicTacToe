@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function SelectDif () {
   return (
     <div className="selectDif-class" >
-      <h1 className='head-1 slide-top ' >TicTacToe Game</h1>
+      <h1 className='head-1-dash slide-top ' >TicTacToe Game</h1>
 
     <div className="menu-diffpage">
         <div className="diffpage-option1 zoom-in">

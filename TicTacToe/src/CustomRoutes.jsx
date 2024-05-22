@@ -7,6 +7,7 @@ import Computer from './pages/Computer/Computer';
 import SelectDif from './pages/SelectDif/SelectDif';
 import NotFound from './pages/NotFound/NotFound'
 
+
 const CustomRoutes = () => {
   return (
     <Routes>

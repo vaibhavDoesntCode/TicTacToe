@@ -3,6 +3,7 @@
   }
   
   .player-2 {
+    
     background-color: rgba(68, 68, 192, 0.723);
     height: 94vh;
     padding-top: 20px;
@@ -39,6 +40,7 @@
     height: 94vh;
     padding-top: 20px;
     transition: all 0.5s ease;
+    
   }
 
   
@@ -48,6 +50,7 @@
     font-weight: 500;
     width: 100%;
     text-align: center;
+    margin-top: 30px;
     font-family: "Exo2";
   }
   .head-2{
@@ -114,3 +117,4 @@
   font-family: "Jakarta";
   src: url(../../assets/PlusJakartaSans-VariableFont_wght.ttf);
 }
+

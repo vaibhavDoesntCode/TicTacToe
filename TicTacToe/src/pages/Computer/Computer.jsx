@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import './Computer.css'
 import Dabba from '../../components/Dabba'
+import NavBar from '../../components/NavBar/NavBar';
 import { useParams } from 'react-router-dom';
 
 function Computer() {
@@ -237,6 +238,7 @@ function winAt(mat,x1,y1,x2,y2,x3,y3){
   return(
     <>
     <div className={bodyClass}>
+    <NavBar where="computer" ></NavBar>
     <h1 className='head-1' style={{fontFamily: "Exo2"}} >TicTacToe Game</h1>
     
     <h2 className='head-3' >{text}</h2><br />

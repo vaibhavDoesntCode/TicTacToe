@@ -1,8 +1,33 @@
-# React + Vite
+# TICTACTOE GAME
+This project is built with Vite + React. The game follows the traditional Tic-Tac-Toe rules and offers two game modes:
+* vs Computer
+* vs Player
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+
+Use the package manager [npm](https://www.npmjs.com/) to install the requirements.
+
+```bash
+cd TicTacToe
+npm install
+```
+
+## Usage
+
+```python
+npm run dev
+```
+
+## About the website
+
+### vs Player Gamemode
+In this mode, two players can play the game together on the same device. Players take turns clicking on the tiles where they want to place their mark. The game will automatically declare a winner once the game is over.
+### vs Computer Gamemode
+In this mode, the user plays as Player 1, and the computer plays its move almost instantly. There are three difficulty levels for the vs Computer game mode:  
+- Easy
+- Medium
+- Hard  
+Enjoy playing Tic-Tac-Toe!
+
